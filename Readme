@@ -1,0 +1,56 @@
+**Name:** Dhanashree Pogade
+**Company:** CODTECH IT SOLUTIONS
+**ID:**CT4DS3387
+**Domain:** Data Science
+**Duration:** June to July
+
+
+## Overwies og Project
+
+## Project: Exploratory Data Analysis (EDA) on Titanic Dataset
+
+# Introduction
+The Titanic dataset contains information about the passengers aboard the Titanic, including details such as survival status, age, sex, and fare paid. The objective of this EDA is to explore the dataset's characteristics, distributions, correlations, and outliers.
+
+# Libraries and Dataset
+The following libraries were used for the analysis:
+
+pandas for data manipulation
+numpy for numerical operations
+matplotlib and seaborn for data visualization
+The Titanic dataset was loaded using the seaborn library.
+
+# Initial Data Inspection
+We began by displaying the first few rows of the dataset, checking the structure and types of the data, and generating summary statistics. This step provided an overview of the data and highlighted any immediate issues, such as missing values.
+
+# Handling Missing Data
+Several columns had missing values:
+
+The 'age' column's missing values were filled with the median age.
+The 'embarked' column's missing values were filled with the mode.
+The 'deck' column was dropped due to a high percentage of missing values.
+Rows with missing 'embark_town' values were dropped.
+This step ensured that the dataset was clean and ready for analysis.
+
+# Univariate Analysis
+Univariate analysis was conducted to explore the distribution of individual features:
+
+Numerical Features: The distribution of age and fare were visualized using histograms.
+Categorical Features: The distribution of sex, class, and embarked were visualized using count plots.
+# Bivariate Analysis
+Bivariate analysis was performed to explore the relationships between pairs of features:
+
+Survival Rate by Class and Sex: Bar plots showed that survival rates varied significantly by passenger class and sex.
+Age Distribution by Survival: A histogram revealed the age distribution among survivors and non-survivors.
+# Multivariate Analysis
+Multivariate analysis explored the relationships between multiple features:
+
+Pairplot of Numerical Features: Pairplots provided insights into the relationships between age, fare, and class with respect to survival.
+Correlation Heatmap: A heatmap of correlations highlighted strong relationships between certain features, such as pclass and fare.
+# Summary of Findings
+The dataset includes both numerical and categorical features.
+Missing values were effectively handled, ensuring a clean dataset for analysis.
+Survival rates were found to vary significantly by class and sex, with higher survival rates for women and first-class passengers.
+Younger passengers had higher survival rates.
+Some features, such as pclass and fare, showed strong correlations.
+This EDA provided valuable insights into the characteristics and relationships within the Titanic dataset, setting the stage for further analysis or predictive modeling.
